@@ -62,7 +62,7 @@ jobs:
 
       - name: Caching brew dependencies
         id: brew_cache
-        uses: tecolicom/actions-use-homebrew-tools@v1.2
+        uses: tecolicom/actions-use-homebrew-tools@v1
         with:
           tools: ldid dpkg make
           cache: yes
